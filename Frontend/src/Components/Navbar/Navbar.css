@@ -1,0 +1,21 @@
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid#49557e;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar-search-icon {
+    position: relative; /* Add this */
+}
+.navbar-search-icon .dot {
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 50%;
+    right: -6px;
+    top: 7px;
+}
