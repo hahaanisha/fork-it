@@ -60,6 +60,7 @@
     background-color: tomato;
     width: max(15vw,200px);
     padding: 12px 0px;
+    cursor: pointer;
 }
 
 .cart-promocode{
