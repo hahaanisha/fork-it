@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 import {assets} from '../../assets/assets'
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({setShowLogin}) => {
     const [menu, setMenu] = useState("home")
 
   return (
@@ -21,7 +21,7 @@ const Navbar = () => {
                 <img src={assets.basket_icon} alt="" />
                 <div className='dot'></div>
             </div>
-            <button className='bg-transparent text-2xl text-gray-700 border border-gray-700 rounded-4xl py-3 px-8 hover:bg-amber-700 hover:text-amber-50'> Sign in </button>
+            <button onClick={()=>setShowLogin(true)} className='bg-transparent text-2xl text-gray-700 border border-gray-700 rounded-4xl py-3 px-8 hover:bg-amber-700 hover:text-amber-50'> Sign in </button>
 
         </div>
     </div>
