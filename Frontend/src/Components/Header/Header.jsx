@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-contents">
-        <h2 className="text-7xl font-medium text-amber-50 font-outfit">
+        <h2 className="text-5xl font-medium text-amber-50 font-outfit">
           Order your favourite food here
         </h2>
         <p className="text-amber-50 text-[20px]">
